@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>College Website</title>
+    <style>
+        
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+
+        
+        header {
+            background-color:blue;        
+            color: white;
+            padding: 15px 0;
+            position: sticky; 
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: white;
+            border-radius: 8px;
+            
+        }
+        h2 {
+            color: red;
+            border-bottom: 3px solid black;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        
+       
+        .course-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap:wrap;
+            gap: 20px;
+        }
+        .course-list li {
+            background-color: gray;
+            padding: 15px;
+            border-radius: 5px;
+            
+            min-width: 250px;
+        }
+        
+       
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat;
+            gap: 15px;
+        }
+        .gallery-item {
+            background-color: gray;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>THAKUR COLLEGE OF ENGINEERING </h1>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Thakur College</h2>
+        <p>Thakur College of Engineering and Technology (TCET) is an autonomous, Mumbai-based private engineering college established in 2001, offering undergraduate, postgraduate, and Ph.D. programs in engineering, IT, and management</p>
+        <p>Explore our wide range of *academic programs* on the Courses page, and see our beautiful campus in the Gallery!</p>
+        <hr>
+        <h3>Important Announcements</h3>
+        <ul>
+            <li>*New Semester Enrollment* begins on January 15th.</li>
+            <li>Scholarship application deadline is February 1st.</li>
+            <li>Campus tour registration is now open.</li>
+        </ul>
+    </section>
+
+    <section id="courses">
+        <h2>Our Academic Programs (Courses)</h2>
+        <p>We offer specialized programs across technology, business, and arts. All courses are taught by experienced faculty.</p>
+        <ul class="course-list">
+            <li>
+                <h4>Computer Science (B.Tech/M.Tech)</h4>
+                <p>Focuses on software engineering, data structures, AI, and machine learning.</p>
+            </li>
+            <li>
+                <h4>Business Administration (BBA/MBA)</h4>
+                <p>Covers finance, marketing, human resources, and strategic management.</p>
+            </li>
+            <li>
+                <h4>Ph.D.:</h4>
+                <p>coursework in research methodology, advanced subject-specific topics, and research ethics </p>
+            </li>
+            <li>
+                <h4>Electrical Engineering</h4>
+                <p>Advanced study in power systems, circuit design, and telecommunications.</p>
+            </li>
+            <li>
+                <h4>Data Science</h4>
+                <p>Intensive training in statistical modeling, big data analytics, and programming.</p>
+            </li>
+                     
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2> Campus Gallery</h2>
+        <p>Take a virtual tour of our modern facilities, lush campus grounds, and vibrant student life.</p>
+        
+        <div class="gallery-container">
+            <div class="gallery-item">Lecture Hall (Placeholder)</div>
+            <div class="gallery-item">Library Interior (Placeholder)</div>
+            <div class="gallery-item">Student Center (Placeholder)</div>
+            <div class="gallery-item">Main Quad (Placeholder)</div>
+            <div class="gallery-item">Auditorium (Placeholder)</div>
+            <div class="gallery-item">Seminar hall (Placeholder)</div>
+        </div>
+        <p style="margin-top: 20px; text-align: center;">Images coming soon! Please check back for updates.</p>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; background-color: #333; color: white;">
+        <p>&copy; 2025 THAKUR COLLEGE . All rights reserved. | <a href="#home" style="color:yellow;">Back to Top</a></p>
+    </footer>
+
+</body>
+</html>
